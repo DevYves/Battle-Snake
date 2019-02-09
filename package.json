@@ -1,10 +1,10 @@
 {
-  "name": "battlesnake-node",
-  "description": "A simple BattleSnake AI written in Javascript for NodeJS",
-  "version": "0.0.0",
+  "name": "Unnamed Snake",
+  "description": "A simple BattleSnake AI written by Aidan Ranney, Sam Wilson and Yves Freypons",
+  "version": "1.0.0",
   "private": true,
-  "author": "Sendwithus",
-  "repository": "https://github.com/sendwithus/battlesnake-node",
+  "author": "Aidan Ranney, Sam Wilson and Yves Freypons",
+  "repository": "https://github.com/DevYves/battlesnake-node",
   "licenses": [
     {
       "type": "WTFPL",
@@ -22,7 +22,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.x"
+    "node": "11.9"
   },
   "scripts": {
     "start": "cross-env PORT=5000 nodemon index.js"
